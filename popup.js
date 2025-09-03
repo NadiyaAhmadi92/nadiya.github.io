@@ -23,3 +23,12 @@ window.onclick = function(event) {
     modal.style.display = 'none';
   }
 };
+
+document.querySelectorAll('nav a').forEach(function(link) {
+  link.addEventListener('click', function() {
+    document.querySelectorAll('nav a').forEach(function(l) {
+      l.classList.remove('active');
+    });
+    this.classList.add('active');
+  });
+});
