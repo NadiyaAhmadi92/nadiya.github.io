@@ -88,7 +88,7 @@ header nav a {
   transition: background 0.3s, color 0.3s;
 }
 
-header nav a.active,
+header nav a:hover,
 header nav a:active {
   background: #ff00cc;
   color: #fff;
@@ -122,39 +122,6 @@ header nav ul li {
     display: flex;
     align-items: center;
 }
-
-/* nav {
-    margin-top: 25px;
-    width: 100%;
-    position: relative;
-    z-index: 1001;
-}
-
-nav a {
-    text-decoration: none;
-    color: #00c6ff;
-    font-weight: 600;
-    position: relative;
-    border-radius: 6px;
-    padding: 0.3em 0.8em;
-    transition: background 0.3s, color 0.3s;
-    display: inline-block;
-}
-
-nav a.active,
-nav a:active {
-    background: #ff00cc;
-    color: #fff;
-    box-shadow: 0 2px 8px rgba(255,0,204,0.15);
-}
-
-nav a.active::after {
-    width: 100%;
-    background: #ff00cc;
-    opacity: 1;
-} */
-
-
 
 main {
     max-width: 1000px;
