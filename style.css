@@ -123,6 +123,15 @@ header nav ul li {
     align-items: center;
 }
 
+
+.nav-logo {
+  width: 60px;   
+  height: 60px;
+  /* object-fit: contain; */
+  /* border-radius: 50%;  */
+}
+
+
 main {
     max-width: 1000px;
     margin: 40px auto;
